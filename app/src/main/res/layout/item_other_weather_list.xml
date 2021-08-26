@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data> </data>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/bg_main_start"
+        android:layout_marginHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="75dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Day -->
+            <TextView
+                android:id="@+id/tvDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lat"
+                android:textColor="@color/main_activity_title_text_color"
+                tools:text="M"
+                android:textSize="20sp"/>
+
+            <!-- Weather Icon -->
+            <ImageView
+                android:id="@+id/ivWeatherIcon"
+                android:layout_width="50dp"
+                android:contentDescription="@string/activity_main_desc_weather_icon"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_rainy"/>
+
+            <!-- Temp -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lat"
+                android:textColor="@color/main_activity_title_text_color"
+                tools:text="24°"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

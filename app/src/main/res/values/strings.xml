@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="activity_main_rainy">Yağmurlu</string>
+    <string name="activity_main_date">9 Temmuz 2021</string>
+    <string name="activity_main_area_name">Antalya</string>
+    <string name="activity_main_desc_weather_icon">Weather Icon</string>
+    <string name="news">Lütfen sokağa çıkarken maskenizi takın ve topluluklardan uzakdurun.</string>
+    <string name="activity_main_humidity_title">Nem</string>
+    <string name="activity_main_humidity">70%</string>
+    <string name="activity_main_wind_title">Rüzgar</string>
+    <string name="activity_main_wind">1.5km</string>
+    <string name="activity_main_wind_temp">34°C</string>
 </resources>
